@@ -5,6 +5,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body{
+
+  background-color:aliceblue;
+}
 
 /* * common-using */
 
@@ -67,11 +71,15 @@
  
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 158px;
-  margin-bottom: 200px;
+   
+  
   text-align: center;
 }
+ .banner-card{
+  align-content:center ;
+  max-width: 1140px;
+ height: 500px; 
+} 
 .banner-main h1{
   font-size: 65px;
   font-weight: bold;
@@ -120,6 +128,7 @@
   border-radius: 24px;
   padding: 50px 80px;
   margin-bottom: 100px;
+  box-shadow: 0px 0px 5px;
 }
 .productive-titel{
   text-align: center;
@@ -281,7 +290,7 @@
   flex-wrap: wrap;
   padding: 71px 0px;
   align-items: center;
-  
+  margin-bottom: 40px;
 }
 .input-title{
   flex-basis: 60%;
@@ -332,4 +341,57 @@
 
 .input-button span{
   text-transform: lowercase;
+}
+
+/* *last banner-style */
+
+.last-banner{
+  background-color: #FFFFFF;
+  height: 428px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.last-banner-title h3{
+  font-size: 50px;
+  color: #4E47FF;
+  text-transform:uppercase;
+  margin-bottom: 20px;
+
+}
+.last-banner-title p{
+  font-size: 16px;
+  color:#8987A1;
+  margin-bottom: 20px;
+
+}
+.spna{
+  color: red;
+}
+.last-banner-title {
+  align-content: center;
+  text-align: center;
+  width: 531px;
+  height: 221px;
+}
+
+.last-link-tag{
+  display: inline-block;
+  display: flex;
+  gap:20px;
+  justify-content: center;
+}
+.last-link-tag a{
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+.last-link-tag span{
+  text-transform: lowercase;
+}
+.last-link-tag a:hover{
+  color:#8987A1 ;
+  text-decoration: underline;
 }
