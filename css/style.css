@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
+
 
 /* * common-using */
 
@@ -14,6 +16,9 @@
   max-width: 1140px;
   margin: 0 auto;
 }
+
+
+  
 
 /* * heading-area-style */
 
@@ -127,5 +132,26 @@
 }
 
 .productive-user-div{
+  display: flex;
+  justify-content: center;
+}
+.productive-card{
+  margin-right: 158px;
+  text-align: center;
+}
+.productive-card:last-child{
+  margin-right: 0px;
+}
+.productive-card h4{
+  font-size: 80px ;
+  font-weight: bold;
+  color:#4E47FF;
+  text-transform: capitalize;
+  margin: 10px;
+}
+.productive-card p{
+  font-size: 20px ;
   
+  color:#00000050;
+  text-transform: capitalize;
 }
