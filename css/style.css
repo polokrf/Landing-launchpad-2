@@ -3,3 +3,69 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* * common-using */
+
+.prm-wid{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.snd-wid{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* * heading-area-style */
+
+.hero-area{
+  height: 698px;
+  background-image: url(../Assets/Hero-bg.png);
+  border-radius: 16px;
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.banner-name{
+  display: flex;
+  justify-content:space-around;
+  padding: 50px 0px;
+}
+.banner-name h3{
+  font-size: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:#4E47FF;
+}
+
+.btn{
+ 
+  padding: 12px 36px;
+  border: none;
+  border-radius:10px;
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  font-size: 16px ;
+  font-weight: bold;
+  text-transform: capitalize;
+  transition: 1s;
+ 
+}
+.btn:hover{
+  background-color: red;
+}
+
+.banner-main{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 158px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+.banner-main h1{
+  font-size: 65px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 37px;
+}
